@@ -52,7 +52,7 @@
 <style>
     .card{
         width: 85%;
-        height: 100%;
+        height: 34rem;
         max-width: 20rem;
         margin: auto;
         display: flex;

@@ -9,6 +9,7 @@
         <p class="last-name">{slice.primary.lastname}</p>
     </div>
     <span class="glare"></span>
+    <img class="turn" src="/img/turn.svg" alt="Click to turn card">
 </section>
 
 
@@ -19,6 +20,7 @@
         /* height: auto; */
         width: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         position: relative;
@@ -66,19 +68,42 @@
         background: radial-gradient(circle at 50% 50%, rgb(199 198 243), transparent);
     }
 
-    /* .name{
+    .name{
+        --b: 2px;
+        --s: 40px;
+        --g: 28px;
+        --c: #FFFFFF;
+
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: calc(var(--b) + var(--g));
+        background-image:
+            conic-gradient(from 180deg at top var(--b) right var(--b),#0000 25%,var(--c) 0),
+            conic-gradient(from 0deg at bottom var(--b) left var(--b),#0000 25%,var(--c) 0);
+        background-position: calc(100% - var(--_p,0%)) var(--_p,0%), var(--_p,0%) calc(100% - var(--_p,0%));
+        background-size: var(--s) var(--s);
+        background-repeat: no-repeat;
+        transition:
+            background-position .3s var(--_i,.3s),
+            background-size .3s calc(.3s - var(--_i,.3s));
+    }
+
+    .inner-card:hover .name{
+        background-size: calc(100% - var(--g)) calc(100% - var(--g));
+            --_p: calc(var(--g)/2);
+            --_i: 0s;
     }
 
     .first-name, .last-name{
-        font-size: 2em;
+        font-size: 2.8em;
         font-weight: normal;
-        line-height: 0.8;
+        line-height: 0.9;
         position: relative;
         text-transform: uppercase;
+        white-space: nowrap;
+        word-break: break-all;
     }
 
     .first-name::after{
@@ -88,7 +113,7 @@
         position: absolute;
         left: 2px;
         top: -2px;
-        -webkit-text-stroke: 1px #fff;
+        -webkit-text-stroke: 1px #ffffff;
     }
 
     .last-name::after{
@@ -98,7 +123,13 @@
         left: 2px;
         top: -2px;
         -webkit-text-stroke: 1px #fff;
-    } */
+    }
 
-
+    .turn{
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        width: 2rem;
+        height: 2rem;
+    }
 </style>
