@@ -97,7 +97,7 @@
     }
 
     .first-name, .last-name{
-        font-size: 2.8em;
+        font-size: 1.6em;
         font-weight: normal;
         line-height: 0.9;
         position: relative;
