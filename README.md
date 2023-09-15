@@ -1,5 +1,7 @@
 # SvelteKit Visitekaartje van Tristan de Muijnck
-<img width="1440" src="">
+
+<img width="1479" src="https://github.com/Tristandemuijnck/vk-tristan/assets/43402897/b265a89f-548e-4553-8581-e37cc4aae595">
+
 
 ## Index
   * [Beschrijving](#beschrijving)
