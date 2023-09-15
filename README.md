@@ -1,63 +1,54 @@
-# SvelteKit Visitekaartje van Tristan de Muijnck
+# 📣 Visitekaartje
+<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Visitekaartje - een visitekaartje gemaakt met SvelteKit en Prismic.io
+
+## 🗃️ Inhoudsopgave
+
+  * [Beschrijving](#-beschrijving)
+  * [Kenmerken](#-kenmerken)
+  * [Installatie](#-installatie)
+  * [Gebruik](#-gebruik)
+  * [Bronnen](#-bronnen)
+  * [Licentie](#-licentie)
+
+## 📜 Beschrijving
+<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
+<!-- Voeg een mooie poster visual toe 📸 -->
+<!-- Voeg een link toe naar Github Pages 🌐-->
+Dit project omvat een persoonlijk visitekaartje.
 
 <img width="1479" src="https://github.com/Tristandemuijnck/vk-tristan/assets/43402897/b265a89f-548e-4553-8581-e37cc4aae595">
 
+## 🪚 Gebruik
+<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+https://vk-tristan.netlify.app/
 
-## Index
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
+## 🎭 Kenmerken
+<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
 
-## Beschrijving
-Dit project is de start van het derde semester over workflows, frameworks & tooling. Daarvoor kregen we de opdracht om ons visitekaartje te herontwikkelen met behulp van het de compiler `SvelteKit` en het headless cms `prismic` waar mijn data vandaan komt. Dit bestand 
+Dit project is gemaakt met: 
 
-## Kenmerken
-Voor dit project is gebruik gemaakt van
+**Tools**
+  * 💻 Visual Studio Code
+  * 🎨 Concepts
+  * 🍰 Slicemachine
 
-* html
-* css
-* sveltekit
-* prismic
+**Tech**
+  * ⚙️ SvelteKit
+  * 🖼️ Prismic.io
+  * 🖌️ CSS
+  * 🎨 THREE.JS
 
-## Installatie
+## 📥 Installatie
+<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Clone of download deze repository naar de gewenste folder.
+2. Open de root directory van dit project en open het project in een code editor naar keuze.
+3. Gebruik ```npm install``` om de benodigde packages te downloaden voor dit project.
+4. Start een server met ```npm dev start```. 
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 📘 Bronnen
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## 🪪 Licentie
 
-### Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-### Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Bronnen
-[prismic docs](https://prismic.io/docs/svelte)
-
-[sveltekit getting started @ mdn](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
-
-[docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+This project is licensed under the terms of the [MIT license](./LICENSE).
