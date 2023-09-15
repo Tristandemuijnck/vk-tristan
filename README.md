@@ -1,8 +1,24 @@
-# create-svelte
+# SvelteKit Visitekaartje van Tristan de Muijnck
+<img width="1440" src="">
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Index
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Bronnen](#bronnen)
 
-## Creating a project
+## Beschrijving
+Dit project is de start van het derde semester over workflows, frameworks & tooling. Daarvoor kregen we de opdracht om ons visitekaartje te herontwikkelen met behulp van het de compiler `SvelteKit` en het headless cms `prismic` waar mijn data vandaan komt. Dit bestand 
+
+## Kenmerken
+Voor dit project is gebruik gemaakt van
+
+* html
+* css
+* sveltekit
+* prismic
+
+## Installatie
 
 If you're seeing this, you've probably already done this step. Congrats!
 
@@ -14,7 +30,7 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
-## Developing
+### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -25,7 +41,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 To create a production version of your app:
 
@@ -36,3 +52,10 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Bronnen
+[prismic docs](https://prismic.io/docs/svelte)
+
+[sveltekit getting started @ mdn](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
+
+[docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
